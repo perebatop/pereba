@@ -59,5 +59,15 @@
         </b>
     </div>
 
+    <script>
+      function isMobile() {
+          return /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      }
+  
+      if (isMobile() && !sessionStorage.getItem("accessFullSite")) {
+          window.location.href = "mobile.html";
+      }
+    </script>
+
 </body>
 </html>

@@ -1,0 +1,1 @@
+A pasta "blogposts" foi feita para registro de blog entries para quem quiser adicionar coisas, no caso, se você quiser adicionar alguma entry, você terá que fazer um arquivo .html contendo seu texto/imagens depois coloca-lo como um link separado para você selecionar na página de blog (blog.html).
